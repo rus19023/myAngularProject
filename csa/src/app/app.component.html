@@ -1,0 +1,20 @@
+<div>
+    <cms-header (selectedFeatureEvent)="switchView($event)"></cms-header>
+    <div class="col-md-12 m-0 p-0">
+        <div class="row ">
+            <cms-documents *ngIf="selectedFeature === 'documents'"></cms-documents>
+            <cms-message-list *ngIf="selectedFeature === 'messages'"></cms-message-list>
+            <cms-contacts *ngIf="selectedFeature === 'contacts'"></cms-contacts>
+        </div>
+    </div>
+    <cms-footer></cms-footer>
+</div>
+
+
+
+
+<!-- <label for="username">Username</label>
+<input type="text" class="form-control" [(ngModel)]="username">
+<p> {{ username }}</p>
+<button class="btn btn-primary" disabled="username === ''" (click)="username = ''">Reset User</button> -->
+

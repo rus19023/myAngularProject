@@ -1,0 +1,37 @@
+.panel, .panel-body {
+    color: white;
+    background: grey;
+}
+
+.panel-heading, .panel-footer, .form-control {
+    background: #494949;
+    color: chartreuse;
+}
+
+.form-control:active {
+    border: 1px solid chartreuse;
+}
+
+.btn-success {
+    color: chartreuse;
+    border: 1px solid chartreuse;
+    margin: 1rem;
+
+}
+
+.btn-danger {
+    color: magenta;
+    border: 1px solid magenta;
+    margin: 1rem;
+}
+
+.btn-danger:hover, .btn-success:hover {
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+}
+
+label {
+    background: grey;
+    color: chartreuse;
+}

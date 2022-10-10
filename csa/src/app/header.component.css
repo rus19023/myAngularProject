@@ -1,0 +1,13 @@
+.navbar, .navbar-brand {
+    background: #494949;
+    color: chartreuse; 
+}
+
+.navlinks {
+    color: magenta;
+}
+
+.navlinks:hover {
+    color: chartreuse;
+    background: grey;
+}
